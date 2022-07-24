@@ -1,38 +1,40 @@
-.App {
+:root{
+
+  --green:rgb(17, 100, 6);
+  --l-green:rgb(129, 216, 112);
+  --black:rgb(0, 0, 0);
+  --white:white;
+  --grey:rgb(114, 114, 114);
+}
+
+.App{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  padding: .5rem 4rem;
+  font-size: large;
+}
+
+
+.button{
+  border: none;
+  color: var(--white);
+  border-radius: 34px;
   text-align: center;
+  font-size: 15px;
+  padding: 10px 20px;
+  box-shadow: 0 19px 51px var(--grey);
+  background: linear-gradient(var(--l-green),var(--green));
+}
+.button:hover{
+  background: rgb(216, 241, 219);
+  color: var(--black);
+  border: var(--green) solid 2px;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 850px) {
+  .App {
+    padding: 0 1rem;
+    margin-top: 0;
+    font-size: medium;
   }
 }

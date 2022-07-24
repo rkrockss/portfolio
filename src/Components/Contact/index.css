@@ -1,0 +1,63 @@
+.contact{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cntct-blr{
+    top: 210rem;
+}
+.cntct-mob-blr{
+    top: 250rem;
+}
+.c-left{
+    display: flex;
+    flex-direction: column;
+    font-size: 5vw;
+    font-weight: bold;
+
+}
+
+.c-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.user{
+    width: 18rem;
+    outline: none;
+    border: var(--green) solid 2px;
+
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+textarea{
+    height: 5rem !important;
+}
+
+.clr-btn{
+    background: linear-gradient(rgb(226, 138, 138),rgb(146, 10, 10));
+    width: 13rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.send-btn{
+    width: 13rem;
+}
+
+@media only screen and (max-width: 800px){
+    .contact{ 
+       
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+ 
+}
+@media only screen and (min-width: 680px){
+    .cntct-mob-blr{
+        display: none;
+    }
+   }

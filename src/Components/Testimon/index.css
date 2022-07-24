@@ -1,0 +1,53 @@
+.test{
+   
+   
+    width: 100%;
+    height: auto;
+}
+
+.test-blr{
+    top: 170rem;
+}
+.test-heading{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    font-size: 6vw;
+    text-align: center;
+
+}
+.test-slide{
+    margin: auto;
+    width: 50%;
+    height: auto;
+   text-align: center;
+   background-color: rgb(220, 241, 217);
+   border-radius: 34px;
+   padding: 2rem 1rem;
+   border: var(--green) solid 3px;
+}
+.test-slide img{
+    border: var(--green) solid 3px;
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
+
+.test-slide .swiper-pagination-bullet-active{
+    background: var(--green);
+}
+
+
+
+@media only screen and (max-width: 880px){
+    .test-slide{
+        width: 80%;
+    }
+
+}
+@media only screen and (max-width: 680px){
+    .test{
+        padding-top: 0 ;
+        margin-top: 0;
+    }
+
+}

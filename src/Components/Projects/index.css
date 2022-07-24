@@ -1,0 +1,53 @@
+.project{
+    padding-top: 4rem ;
+    height: auto;
+    width: 100%;
+}
+.project-blr{
+    top: 110rem;
+}
+.project-heading{
+    font-size: 7vw;
+    font-weight: bold;
+    color: var(--green);
+    text-align: center;
+}
+.swipe{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.slide:hover{
+   cursor: pointer;
+
+}
+
+.slide img{
+    width: 100%;
+    height: 35%;
+    margin-bottom: 1rem;
+    border-radius: 34px;
+    
+}
+.slide{
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 34px;
+    border: var(--green) solid 3px;
+    
+}
+.slideName{
+     font-size: 3vw;
+     margin-bottom: 12px;
+     text-align: center;
+
+}
+
+@media only screen and (max-width: 680px){
+    .project{
+        padding-top: 0 ;
+    }
+
+}

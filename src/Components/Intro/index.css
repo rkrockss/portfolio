@@ -1,0 +1,154 @@
+.intro{
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 3rem;
+
+}
+
+.i-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+    
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1){
+    font-weight: bold;
+    color: var(--black);
+    font-size: 5vw;
+}
+
+.i-name>:nth-child(2){
+    font-weight: bold;
+    color: var(--green);
+    font-size: 5vw;
+    margin-bottom: 1rem;
+}
+
+.i-name>:nth-child(3){
+    font-weight: bold;
+    color:var(--grey);
+    font-size: 2.5vw;
+}
+.i-name>:nth-child(4){
+    font-weight: bold;
+    color:var(--grey);
+    font-size: 2.5vw;
+    margin-bottom: 1rem;
+}
+
+.hire-btn{
+
+    width: 5rem;
+    
+}
+
+.i-icons{
+
+    display: flex;
+    gap: 1rem;
+
+   
+   
+}
+
+.i-icon{
+    margin-top: 1rem;
+    display: flex;
+    color: var(--green);
+    gap: 1.5rem;
+    font-size: 7vw;
+}
+
+.i-icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all.5s;
+
+
+}
+
+.i-right{ 
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.i-right img{ 
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    width: 25vw;
+    box-shadow: 0 19px 51px var(--grey);
+}
+
+.i-right img:hover{ 
+  border: var(--green) solid 1px;
+  transform: scale(1.1);
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.up-blur{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgb(186, 238, 206);
+    right: 8%;
+    top: 15%;
+    filter: blur(100px);
+    z-index: -9;
+
+}
+
+
+
+
+
+ @media only screen and (max-width: 680px){
+    .intro{
+      flex-direction: column;
+      align-items: center;
+    }
+    .i-name{
+        text-align: center;
+    }
+    .i-icons{
+        justify-content: center;
+        margin-top: 0;
+    }
+    .hire-btn{
+        margin: auto;
+    }
+
+    .i-left{
+        margin-top: 65%;
+      
+
+
+    }
+ 
+    .i-right{
+       position: absolute;
+     
+        
+    }
+    .i-right img{
+        width: 50vw;
+        height: auto;
+
+    }
+
+
+
+ } 
+
+ 
